@@ -199,7 +199,7 @@ def to_HMS_second(coord):
         return coord.hms.h*60*60 + coord.hms.m*60 + coord.hms.s
 
 def to_DMS_second(coord):
-        return coord.dms.d*60*60 + coord.dms.m*60*60 + coord.dms.s
+        return coord.dms.d*60*60 + coord.dms.m*60 + coord.dms.s
 
 
 def printCoords(max_loc, w):
